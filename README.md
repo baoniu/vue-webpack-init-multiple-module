@@ -17,8 +17,8 @@
     
 # 命名规范 php/js/python
     
-    变量：全小写，并以下划线连接，如 user_age
-    方法名：小写字母开头，并以大写字母连接，如 userAge()
-    类名：大写字母开头，并以大写字母连接，如 UserClass{}
-    常量：全大写字母，并以下划线连接，如 ACCOUNT_ENABLED=1
+    变量：全小写，并以下划线连接，如 user_age=18,age=18
+    方法名：小写字母开头，并以大写字母连接，如 userAge(), user()
+    类名：大写字母开头，并以大写字母连接，如 UserClass{}, User{}
+    常量：全大写字母，并以下划线连接，如 ACCOUNT_ENABLED=1, ENABLED
    
