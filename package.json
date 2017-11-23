@@ -1,13 +1,11 @@
 {
-  "name": "my-project",
+  "name": "init-webpack-and-vue",
   "version": "1.0.0",
-  "description": "任务发布",
-  "author": "author@shangtuiyun.com",
+  "description": "项目初始化",
+  "author": "hookover@qq.com",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
-    "web": "node build/web.js",
-    "start": "node build/dev-server.js",
     "build": "node build/build.js"
   },
   "dependencies": {
