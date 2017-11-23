@@ -1,21 +1,24 @@
-# my-project
+# vue webpack vux axios api 初始化
+这是模块化针对某个页面开发的，所以没有配置vue-router
 
-> 任务发布
+演示了ajax调用方式、store存取、一个模块
 
-## Build Setup
+# 添加新模块
+在src/module文件夹下面建立新的模块目录，并参考Home模块结构和命名
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 测试生成文件到dist
+    npm install
+    npm run build
+   
+# 使用
+    src/vuex/store.js 共享数据函数
+    src/common/api.js api
+    src/common/tool.js 工具类
+    
+# 命名规范 php/js/python
+    
+    变量：全小写，并以下划线连接，如 user_age
+    方法名：小写字母开头，并以大写字母连接，如 userAge()
+    类名：大写字母开头，并以大写字母连接，如 UserClass{}
+    常量：全大写字母，并以下划线连接，如 ACCOUNT_ENABLED=1
+   
